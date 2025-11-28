@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alok CodeTester</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1><strong>Alok CodeTester</strong></h1>
+    <div class="header-buttons">
+      <button id="toggleTheme">Toggle Dark/Light</button>
+      <button id="signupBtn">Sign Up</button>
+      <button id="demoBtn">Show Example</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="editor-output-container">
+      <div class="editors">
+        <div class="editor-panel">
+          <h2>HTML</h2>
+          <textarea id="htmlEditor"></textarea>
+        </div>
+        <div class="editor-panel">
+          <h2>CSS</h2>
+          <textarea id="cssEditor"></textarea>
+        </div>
+        <div class="editor-panel">
+          <h2>JavaScript</h2>
+          <textarea id="jsEditor"></textarea>
+        </div>
+      </div>
+
+      <div class="resizer"></div>
+
+      <div class="output-container">
+        <button id="runBtn">Run Code</button>
+        <iframe id="output"></iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Created by Alok 💚</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/xml/xml.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/javascript/javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/css/css.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/addon/edit/closetag.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/addon/edit/closebrackets.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
