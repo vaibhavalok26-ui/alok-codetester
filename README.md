@@ -40,7 +40,6 @@ This project is aimed at students, beginners, and developers who want a simple, 
 
 ---
 
-## Live Demo
 
 You can deploy this website using **GitHub Pages**, **Netlify**, or **Vercel** to make it live online for anyone to access.
 
